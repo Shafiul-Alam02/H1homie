@@ -12,6 +12,48 @@
     body{
         background-color: rgb(163, 196, 238);
     }
+    .nav-link:hover{
+    color: blue !important;
+    border-top: solid 1px;
+    border-color: rgb(208, 121, 243);
+}
+.navbar-nav a{
+    transition: all 0.5 ease;
+}
+.navbar-nav{
+    margin-bottom: 20px;
+}
+.navbar-nav a:hover{
+    background: palegoldenrod;
+    padding: none;
+    margin: none;
+}
+.dropdown-item{
+    border-bottom: black 1px solid;
+}
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.iframe>*{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.buttonm{
+    text-align: center;
+    padding: 50px;
+    transition: all 0.5 ease;
+}
+
 </style>
 <script>
   var myModal = document.getElementById('myModal')
@@ -124,7 +166,7 @@ myModal.addEventListener('shown.bs.modal', function () {
             <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-5">
                 <div class="col">
                   <div class="card h-100">
-                    <img src="/photos/f13825728.jpg" class="card-img-top" alt="...">
+                    <img src="photos/f13825728.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Pitch Burners</h5>
                       <p class="card-text">They could have played before but now they can't play.</p>
@@ -136,7 +178,7 @@ myModal.addEventListener('shown.bs.modal', function () {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="/photos/champesta.jpg" class="card-img-top" alt="...">
+                    <img src="photos/champesta.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Champesta</h5>
                       <p class="card-text">A strong team without a trophy.</p>
@@ -148,7 +190,7 @@ myModal.addEventListener('shown.bs.modal', function () {
                 </div>
                 <div class="col">
                   <div class="card h-100">
-                    <img src="/photos/sbs.jpg" class="card-img-top" alt="...">
+                    <img src="photos/sbs.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">SBS</h5>
                       <p class="card-text">lame team. They can not even win a match.</p>
